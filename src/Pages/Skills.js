@@ -30,13 +30,34 @@ const Skills = () => {
         <img src={`${process.env.PUBLIC_URL}/images/techstack/js.png`}/>
         </div>
         <div className='tech-box'>
-        <img src={`${process.env.PUBLIC_URL}/images/techstack/npm.png`}/>
+        <img src={`${process.env.PUBLIC_URL}/images/techstack/aws.png`}/>
         </div>
         <div className='tech-box'>
         <img src={`${process.env.PUBLIC_URL}/images/techstack/postman.png`}/>
         </div>
         <div className='tech-box'>
         <img  src={`${process.env.PUBLIC_URL}/images/techstack/react.png`}/>
+        </div>
+        <div className='tech-box'>
+        <img  src={`${process.env.PUBLIC_URL}/images/techstack/java.png`}/>
+        </div>
+        <div className='tech-box'>
+        <img  src={`${process.env.PUBLIC_URL}/images/techstack/linux.png`}/>
+        </div>
+        <div className='tech-box'>
+        <img  src={`${process.env.PUBLIC_URL}/images/techstack/nodejs.png`}/>
+        </div>
+        <div className='tech-box'>
+        <img  src={`${process.env.PUBLIC_URL}/images/techstack/postgre.png`}/>
+        </div>
+        <div className='tech-box'>
+        <img  src={`${process.env.PUBLIC_URL}/images/techstack/prism.png`}/>
+        </div>
+        <div className='tech-box'>
+        <img  src={`${process.env.PUBLIC_URL}/images/techstack/python.png`}/>
+        </div>
+        <div className='tech-box'>
+        <img  src={`${process.env.PUBLIC_URL}/images/techstack/gitlab.png`}/>
         </div>
         <div className='tech-box'>
         <img  src={`${process.env.PUBLIC_URL}/images/techstack/vscode.png`}/>

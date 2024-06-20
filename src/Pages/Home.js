@@ -4,9 +4,11 @@ import Footer from '../Components/Footer';
 import About from './About';
 import Contact from './Contact';
 import './Home.css';
-import Portfolio from './Portfolio';
+import Projects from './Projects';
 import Skills from './Skills';
 import { Link } from 'react-router-dom';
+import Experience from './Experience';
+import Achievements from './Achievements';
 
 const Home = () => {
   return (
@@ -21,7 +23,7 @@ const Home = () => {
           </h4>
           <h1 className="heading-name">
             I'M
-            <strong className="main-name"> Prasanjith <span style={{marginLeft:75}}> Lorensuhewa</span></strong>
+            <strong className="main-name"> Prasanjith <span style={{marginLeft:80}}> Lorensuhewa</span></strong>
           </h1>
 
           <div className='typewritter'>
@@ -31,7 +33,6 @@ const Home = () => {
                   "Full Stack Developer",
                   "University Undergraduate",
                   "Professional Chess Player"
-                  // ,"UI/UX Designer"
                 ],
                 autoStart: true,
                 loop: true,
@@ -79,7 +80,9 @@ const Home = () => {
 
     <About/>
     <Skills/>
-    <Portfolio/>
+    <Projects/>
+    <Experience/>
+    <Achievements/>
     <Contact/>
     <Footer/>
     </section>

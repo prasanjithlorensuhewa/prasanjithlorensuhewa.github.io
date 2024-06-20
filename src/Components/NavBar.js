@@ -68,7 +68,13 @@ const NavBar = () => {
           <Link to={'/skills'} className='navlink'>Skills</Link>
         </li>
         <li>
-          <Link to={'/portfolio'} className='navlink'>Portfolio</Link>
+          <Link to={'/projects'} className='navlink'>Projects</Link>
+        </li>
+        <li>
+          <Link to={'/experience'} className='navlink'>Experience</Link>
+        </li>
+        <li>
+          <Link to={'/achievements'} className='navlink'>Achievements</Link>
         </li>
         <li>
           <Link to={'/contact'} className='navlink'>Contact</Link>

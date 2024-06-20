@@ -1,0 +1,43 @@
+.achievements-container {
+    padding: 100px 8% 90px;
+    height: auto;
+    width: 100%;
+    background: var(--second-bg-color);
+    animation: fadeInUp 1s ease-in-out;
+  }
+
+.achievements-container .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.achievements-container .content .card {
+  width: 340px;
+  margin: 15px;
+}
+
+.achievements-container .content .card .card-img {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.achievements-container .content .card .card-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.achievements-container .content .card .card-img img:hover {
+  transform: scale(1.2);
+}
