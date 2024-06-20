@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --text-color: #fff;
+    --bg-color: #1b1f24;
+    --second-bg-color: #22282f;
+    --main-color: #8bc7f3;
+    --other-color: #abcbe3;
+
+    --h1-font: 4.5rem;
+    --h2-font: 2.9rem;
+    --p-font: 1rem;
+  
+  
+  }
+
+body{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 16%;
+    background: transparent;
+    transition: all .50s ease;
+
+}
+.logo{
+    font-size: 36px;
+    color: var(--text-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+.navlist{
+    display: flex;
+}
+
+.navlist .navlink {
+    font-size: var(--p-font);
+    font-weight: 600;
+    color: var(--other-color);
+    margin-left: 40px;
+    transition: all 0.50s ease;
+    text-decoration: none;
+    
+}
+
+.navlist .navlink:hover {
+    color: var(--other-color);
+    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color) ;
+    
+}
+
+.menu-icon{
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+
+
+}
+header.sticky{
+    background: var(--bg-color);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
+    padding: 16px 16%;
+
+
+}
+
+@media (max-width:1700px){
+    header{
+        padding: 20px 8%;
+    }
+    .logo{
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+@media (max-width:1380px){
+    header{
+        padding: 20px 5%;
+    }
+    .logo{
+        font-size: 28px;
+    }
+}
+
+@media(max-width:730px){
+    .menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 255px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        transition: all .50s ease;
+    }
+    .navlist .navlink{
+        display: block;
+        padding: 17px;
+        font-size: 22px;
+    }
+    .navlist.active{
+        right: 0;
+    }
+}
