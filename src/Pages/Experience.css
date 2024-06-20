@@ -40,11 +40,6 @@
     box-shadow: 0 0 5px var(--main-color);
   }
   
-  .box h3 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
   
   .box p {
     color: var(--other-color);
