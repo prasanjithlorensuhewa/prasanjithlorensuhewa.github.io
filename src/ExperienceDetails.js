@@ -8,7 +8,7 @@ export const experienceDetails = [
         Through this experience, I became familiar with micro frontend and microservice architecture. I worked on projects Exchange Subscription, which helped clients understand necessary agreements and subscription history, and Reporting Dynamics, which automated report generation and handling exceptions. Additionally, I had the opportunity to work as a release manager in a sprint, ensuring smooth and timely production releases. I also participated in GTN Interns' Day, GTN Awrudu, and dinner outings.`,
     },
     {
-        title: "CSE at Univeristy of Moratuwa - Higher Education",
+        title: "CSE at University of Moratuwa - Higher Education",
         subtitle: "(2021 JAN - Current)",
         image: `${process.env.PUBLIC_URL}/images/experience/uom.png`,
         description: `
