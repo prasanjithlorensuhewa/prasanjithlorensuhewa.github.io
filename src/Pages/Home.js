@@ -60,7 +60,7 @@ const Home = () => {
     <div className='main-btn'>
       <Link to={'/contact'} className='btn'>Hire Me</Link>
       <a 
-              href='https://drive.google.com/file/d/1U6TmiUg94NO2IgxWBSyu67LnlQu5fAKg/view?usp=sharing' 
+              href='https://drive.google.com/file/d/1rG8TXtbWDDCVNbLkq0pbNgt4oZJAZVMD/view?usp=sharing' 
               className='btn btn2'
               download
               target='_blank'
