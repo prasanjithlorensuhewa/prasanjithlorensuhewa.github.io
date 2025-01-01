@@ -31,7 +31,7 @@ const Home = () => {
               options={{
                 strings: [
                   "Full Stack Developer",
-                  "University Undergraduate",
+                  "Final Year Student",
                   "Professional Chess Player"
                 ],
                 autoStart: true,
@@ -39,7 +39,7 @@ const Home = () => {
                 deleteSpeed: 50,
               }}
             /></div>
-            <p>I'm currently a third year computer science and engineering undergraduate at the University of Moratuwa.</p>
+            <p>I'm currently a final year computer science and engineering undergraduate at the University of Moratuwa.</p>
             
             <div className='social'>
             
@@ -60,7 +60,7 @@ const Home = () => {
     <div className='main-btn'>
       <Link to={'/contact'} className='btn'>Hire Me</Link>
       <a 
-              href='https://drive.google.com/file/d/1rG8TXtbWDDCVNbLkq0pbNgt4oZJAZVMD/view?usp=sharing' 
+              href='https://drive.google.com/file/d/1uzLnROq5IcqN97RABCFg53-Z64DUb8mi/view?usp=sharing' 
               className='btn btn2'
               download
               target='_blank'
