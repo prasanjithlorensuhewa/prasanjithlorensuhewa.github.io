@@ -39,6 +39,12 @@ const Skills = () => {
         <img  src={`${process.env.PUBLIC_URL}/images/techstack/react.png`}/>
         </div>
         <div className='tech-box'>
+        <img  src={`${process.env.PUBLIC_URL}/images/techstack/angular.png`}/>
+        </div>
+        <div className='tech-box'>
+        <img  src={`${process.env.PUBLIC_URL}/images/techstack/springboot.png`}/>
+        </div>
+        <div className='tech-box'>
         <img  src={`${process.env.PUBLIC_URL}/images/techstack/java.png`}/>
         </div>
         <div className='tech-box'>

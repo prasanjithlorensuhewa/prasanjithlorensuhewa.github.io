@@ -1,7 +1,7 @@
 export const projectDetails = [
     {
         title: "Safe RL algorithm for T1D Patients (FYP)",
-        image: `${process.env.PUBLIC_URL}/images/project/VendorEcommerce.png`,
+        image: `${process.env.PUBLIC_URL}/images/project/glucose.png`,
         description: `Enhances safety in insulin treatment for Type 1 diabetes patients by
  integrating safety based reinforcement learning algorithm meeting
  clinical safety standards.`,
@@ -10,7 +10,7 @@ export const projectDetails = [
     },
     {
         title: "Room Reservation Management System",
-        image: `${process.env.PUBLIC_URL}/images/project/VendorEcommerce.png`,
+        image: `${process.env.PUBLIC_URL}/images/project/room_reservation.png`,
         description: ` Comprehensive hotel management platform with secure
  authentication, seamless room management, and reservation handling
  for admins and customers`,
@@ -38,12 +38,12 @@ export const projectDetails = [
         githubLink: "https://github.com/prasanjithlorensuhewa/Ecommerce_DBMS",
     },
   
-    {
-        title: "Food Ordering Web App (Ongoing)",
-        image: `${process.env.PUBLIC_URL}/images/project/BookWizApp.jpg`,
-        description: `Our Food Ordering Web App gives a timely solution that tackles the challenge of ordering meals for fellow boarding students from the nearby restaurants. It encompasses key features like creating order sessions, meal selection from resturants, and offering shop ratings and reviews, streamlining the dining experience for the university community.`,
-        techstack: "React, NodeJS, MongoDB, ExpressJS, MaterialUI",
-        githubLink: "https://github.com/prasanjithlorensuhewa/Food-ordering-app",
-    },
+    // {
+    //     title: "Food Ordering Web App (Ongoing)",
+    //     image: `${process.env.PUBLIC_URL}/images/project/BookWizApp.jpg`,
+    //     description: `Our Food Ordering Web App gives a timely solution that tackles the challenge of ordering meals for fellow boarding students from the nearby restaurants. It encompasses key features like creating order sessions, meal selection from resturants, and offering shop ratings and reviews, streamlining the dining experience for the university community.`,
+    //     techstack: "React, NodeJS, MongoDB, ExpressJS, MaterialUI",
+    //     githubLink: "https://github.com/prasanjithlorensuhewa/Food-ordering-app",
+    // },
   ];
   
